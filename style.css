@@ -1,0 +1,121 @@
+body {
+    font-family: 'Times New Roman', Times;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #bc37ae;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin-top: 1rem;
+}
+nav a {
+    margin: 0 1rem;
+    color: #bc37ae;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    color : #651e5e
+}
+footer a {
+    color: #bc37ae;
+    text-decoration: none;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem; /* adds space between text and image */
+}
+
+.about-text {
+    flex: 1;
+    max-width: 60%; /* adjusts width of text area */
+}
+
+.about-image {
+    flex: 1;
+    text-align: center; /* centers the image within its container */
+}
+
+.about-image img {
+    width: 250px;
+    height: auto;
+}
+
+
+.altair {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the iframe */
+    align-items: center;
+}
+
+.altair-iframe {
+    width: 1050px; /* Adjust width as needed */
+    height: 450px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
+}
+
+.sankey {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the iframe */
+    align-items: center;
+}
+
+.sankey-iframe {
+    width: 1050px; /* Adjust width as needed */
+    height: 590px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
+}
+
+.geo {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the iframe */
+    align-items: center;
+}
+
+.geo-iframe {
+    width: 1050px; /* Adjust width as needed */
+    height: 590px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
+}
+
+.tableau {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the iframe */
+    align-items: center;
+}
+
+.tableau-iframe {
+    width: 1050px; /* Adjust width as needed */
+    height: 900px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
+}
+
