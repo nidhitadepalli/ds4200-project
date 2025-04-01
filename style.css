@@ -19,6 +19,12 @@ header {
     overflow: hidden; /* Prevent horizontal scrolling */
 }
 
+header h1 {
+    text-align: center; /* Centers the text within the header */
+    width: 100%; /* Ensures it spans the full width */
+}
+
+
 /* Make sure images don’t get pushed too far */
 .bags, .cart {
     width: 60px; /* Adjust size */
