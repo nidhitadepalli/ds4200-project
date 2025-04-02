@@ -13,29 +13,23 @@ header {
     justify-content: space-between;
     text-align: center;
     width: 100%;
-    padding: 50px; 
-    min-height: 150px; 
-    box-sizing: border-box; 
-    overflow: hidden; 
+    padding: 50px; /* Increase padding without overflow */
+    min-height: 150px; /* Ensure the header is tall enough */
+    box-sizing: border-box; /* Prevent padding from increasing total width */
+    overflow: hidden; /* Prevent horizontal scrolling */
 }
 
-header h1 {
-    text-align: center; 
-    width: 100%; 
-}
-
-
-
+/* Make sure images don’t get pushed too far */
 .bags, .cart {
-    width: 60px; 
+    width: 60px; /* Adjust size */
     height: auto;
-    flex-shrink: 0; 
+    flex-shrink: 0; /* Prevent them from shrinking */
 }
 
-
+/* Center the text properly */
 .header-text {
     text-align: center;
-    max-width: 60%; 
+    max-width: 60%; /* Prevent text from stretching too much */
 }
 
 .header-text h1 {
@@ -81,16 +75,17 @@ footer a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem; 
+    gap: 2rem; /* adds space between text and image */
+}
 
 .about-text {
     flex: 1;
-    max-width: 60%; 
+    max-width: 60%; /* adjusts width of text area */
 }
 
 .about-image {
     flex: 1;
-    text-align: center; 
+    text-align: center; /* centers the image within its container */
 }
 
 .about-image img {
@@ -102,56 +97,56 @@ footer a {
 .altair {
     text-align: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center; /* Centers the iframe */
     align-items: center;
 }
 
 .altair-iframe {
-    width: 1050px; 
-    height: 450px; 
-    max-width: 100%; 
-    border: none; 
+    width: 1050px; /* Adjust width as needed */
+    height: 450px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
 }
 
 .sankey {
     text-align: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center; /* Centers the iframe */
     align-items: center;
 }
 
 .sankey-iframe {
-    width: 1050px; 
-    height: 590px; 
-    max-width: 100%; 
-    border: none; 
+    width: 1050px; /* Adjust width as needed */
+    height: 590px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
 }
 
 .geo {
     text-align: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center; /* Centers the iframe */
     align-items: center;
 }
 
 .geo-iframe {
-    width: 1050px; 
-    height: 590px; 
-        /*max-width: 100%;*/ 
-    border: none; 
+    width: 1050px; /* Adjust width as needed */
+    height: 590px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
 }
 
 .tableau {
     text-align: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center; /* Centers the iframe */
     align-items: center;
 }
 
 .tableau-iframe {
-    width: 1050px; 
-    height: 900px; 
-    max-width: 100%; 
-    border: none; 
+    width: 1050px; /* Adjust width as needed */
+    height: 900px; /* Ensure height is defined */
+    max-width: 100%; /* Makes it responsive */
+    border: none; /* Removes border */
 }
 
