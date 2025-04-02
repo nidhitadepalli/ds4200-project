@@ -137,7 +137,7 @@ footer a {
 .geo-iframe {
     width: 1050px; 
     height: 590px; 
-    max-width: 100%;
+        /*max-width: 100%;*/ 
     border: none; 
 }
 
