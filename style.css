@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    font-size: 1.15rem;
 }
 
 header {
@@ -106,8 +107,8 @@ footer a {
 }
 
 .altair-iframe {
-    width: 1050px; /* Adjust width as needed */
-    height: 450px; /* Ensure height is defined */
+    width: 850px; /* Adjust width as needed */
+    height: 600px; /* Ensure height is defined */
     max-width: 100%; /* Makes it responsive */
     border: none; /* Removes border */
 }
@@ -149,7 +150,7 @@ footer a {
 
 .tableau-iframe {
     width: 1050px; /* Adjust width as needed */
-    height: 900px; /* Ensure height is defined */
+    height: 800px; /* Ensure height is defined */
     max-width: 100%; /* Makes it responsive */
     border: none; /* Removes border */
 }

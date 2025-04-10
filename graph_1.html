@@ -2,31 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Altair Barchart</title>
+    <title>Geospatial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-        <h1>Altair Bar Chart</h1>
+        <h1>Geospatial</h1>
     </header>
   <nav>
         <a href="index.html">Home</a>
-        <a href="graph_1.html">Purchase Quantity</a>
-        <a href="graph_2.html">Sankey</a>
-        <a href="graph_3.html">Geospatial</a>
-        <a href="graph_4.html">Tableau Line Chart</a>
-        <a href="graph_5.html">Heatmap Idea</a>
+        <a href="graph_1.html">Avg Purchase Amount by State</a>
+        <a href="graph_2.html">Payment Method</a>
+        <a href="graph_3.html">Purchase Quantity</a>
+        <a href="graph_4.html">Purchase Frequency</a>
+        <a href="graph_5.html">Age vs. Category</a>
         <a href="summary.html">Summary</a>
     </nav>
   <div class = "container">
-    <div class="altair">
-        <iframe src="purchase_barchart.html" class="altair-iframe"></iframe>
+    <div class="geo">
+        <iframe src="shopping_geospatial_map.html" class="geo-iframe"></iframe>
     </div>
 
     <section id="analysis">
             <h2>Analysis:</h2>
             <p> 
-                This bar chart illustrates purchase trends across four product categories—Accessories, Clothing, Footwear, and Outerwear—by gender and season. Males consistently make more purchases than females in all categories year-round, with clothing being the most popular and outerwear the least. Male clothing purchases peak in Spring, while overall category preferences remain relatively stable across seasons. The data highlights that males not only shop more frequently but also display stronger preferences for specific categories, particularly clothing, whereas females show a more balanced distribution of purchases across categories.
+                
+This geospatial map displays average purchase amounts across U.S. states, with darker colors representing higher spending. Alaska stands out with the highest average purchase values, while most states show moderate to lower spending. Each state tooltip provides detailed insights including average purchase amount, customer ratings, top product category, promo code usage rates, and subscription purchase percentages. While "Clothing" dominates as the preferred category in most states, New Mexico and West Virginia uniquely favor "Accessories" as their top category, suggesting distinct regional preferences or market conditions in these areas. These geographic spending patterns could reflect differences in economic conditions, regional consumer preferences, and the effectiveness of marketing strategies across different state markets.
+
             </p>
             
         </section>
