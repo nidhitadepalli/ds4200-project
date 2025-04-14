@@ -7,28 +7,34 @@
 </head>
 <body>
   <header>
-        <h1>Geospatial</h1>
+        <h1>Average Purchase Amount by State</h1>
     </header>
   <nav>
         <a href="index.html">Home</a>
         <a href="graph_1.html">Avg Purchase Amount by State</a>
-        <a href="graph_2.html">Payment Method</a>
+        <a href="graph_2.html">Purchase Frequency</a>
         <a href="graph_3.html">Purchase Quantity</a>
-        <a href="graph_4.html">Purchase Frequency</a>
         <a href="graph_5.html">Age vs. Category</a>
         <a href="summary.html">Summary</a>
     </nav>
   <div class = "container">
     <div class="geo">
-        <iframe src="shopping_geospatial_map.html" class="geo-iframe"></iframe>
+        <iframe src="shopping_trends_multilayer_map.html" class="geo-iframe"></iframe>
     </div>
 
     <section id="analysis">
             <h2>Analysis:</h2>
             <p> 
                 
-This geospatial map displays average purchase amounts across U.S. states, with darker colors representing higher spending. Alaska stands out with the highest average purchase values, while most states show moderate to lower spending. Each state tooltip provides detailed insights including average purchase amount, customer ratings, top product category, promo code usage rates, and subscription purchase percentages. While "Clothing" dominates as the preferred category in most states, New Mexico and West Virginia uniquely favor "Accessories" as their top category, suggesting distinct regional preferences or market conditions in these areas. These geographic spending patterns could reflect differences in economic conditions, regional consumer preferences, and the effectiveness of marketing strategies across different state markets.
+                This geospatial map reveals average purchase values for U.S. states, with each layer differing in that it represents a different product category. Blacker colors indicate greater average spend within the category, allowing users to examine local patterns of Clothing, Accessories, and more. A layer control panel allows direct comparison across categories, raising interactivity and making detailed analysis easier.
 
+            </p>
+            <p>
+                Alaska stands alone as the sole state with the highest average purchase value overall, while most states fall in middle to low-spending ranks. The tooltip for a state provides additional information, including average purchase value, customer ratings, best product category, promo code redemption, and subscription purchase levels. Although "Clothing" is the top category for most states, New Mexico and West Virginia favor "Accessories" individually, suggesting varying regional preferences or market forces.
+
+            </p>
+            <p>
+                These patterns may suggest broader distinctions in economic conditions, consumer shopping, and success at the point of marketing among states. Stacked style highlights not only where it's high or low expenditure, but also on what consumers are spending—giving better category-level insights into patterns within the U.S. marketplace.
             </p>
             
         </section>

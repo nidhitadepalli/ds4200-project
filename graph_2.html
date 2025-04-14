@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sankey</title>
+    <title>Purcahse Frequency</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-        <h1>Sankey</h1>
+        <h1>Purchase Frequency</h1>
     </header>
   <nav>
         <a href="index.html">Home</a>
         <a href="graph_1.html">Avg Purchase Amount by State</a>
-        <a href="graph_2.html">Payment Method</a>
+        <a href="graph_2.html">Purchase Frequency</a>
         <a href="graph_3.html">Purchase Quantity</a>
-        <a href="graph_4.html">Purchase Frequency/a>
         <a href="graph_5.html">Age vs. Category</a>
         <a href="summary.html">Summary</a>
     </nav>
@@ -24,12 +23,33 @@
     </div>
 
     <section id="analysis">
-            <h2>Analysis:</h2>
-            <p> 
-                The Sankey diagram visualizes the relationship between payment methods and customer payment frequency segments, illustrating how different payment methods correspond to various payment schedules. Credit Card users along with PayPal customers predominantly make "Weekly" payments. Cash payments show a strong connection to "Monthly" payments, as indicated by the label "Cash → Monthly: 85 customers", but also have notable flows toward "Bi-Weekly" payments. Venmo users primarily opt for "Annual" payments, whereas Bank Transfer customers are split between "Fortnightly" and "Every 3 Months" schedules. The width of each flow represents the volume of customers for each payment method and frequency combination. This visualization provides valuable insights into customer payment preferences, helping businesses optimize payment systems and optimize cash flow
-            </p>
-            
-        </section>
+        <h3>Sankey Analysis:</h2>
+        <p> 
+            The Sankey diagram visualizes the relationship between payment methods and customer payment frequency segments, illustrating how different payment methods correspond to various payment schedules. Credit Card users along with PayPal customers predominantly make "Weekly" payments. Cash payments show a strong connection to "Monthly" payments, as indicated by the label "Cash → Monthly: 85 customers", but also have notable flows toward "Bi-Weekly" payments. Venmo users primarily opt for "Annual" payments, whereas Bank Transfer customers are split between "Fortnightly" and "Every 3 Months" schedules. The width of each flow represents the volume of customers for each payment method and frequency combination. This visualization provides valuable insights into customer payment preferences, helping businesses optimize payment systems and optimize cash flow
+        </p>
+        
+    </section>
+
+    <div class="tableau">
+        <iframe src="tableau.html" class="tableau-iframe"></iframe>
+    </div>
+
+    <section id="analysis">
+        <h3>Line Chart Analysis:</h2>
+        <p> 
+            The Tableau line chart "Distribution of Purchase Frequency Across Seasons" reveals distinct seasonal purchasing patterns. Weekly (purple) purchasing shows steady decline from Winter to Summer, dropping to its lowest in Summer after surging to the highest point in Winter. Bi-weekly (light purple) demonstrates the opposite trend, peaking in Spring at approximately 155 customers before steadily declining to about 120 customers by Fall. Quarterly (light brown) customers increase steadily from Winter through Summer (peaking around 144) before declining ever so slightly in Fall. Fortnightly (light pink) displays a steady decline from Winter through Summer, its lowest point being Summer at around 127 customers, before spiking back up during Fall. Monthly (dark brown) mainly follows suit with Weekly customers. Every 3 Months (dark pink) and Annual (dark purple) frequencies show more modest fluctuations across seasons. These contrasting patterns suggest customers shift their purchasing frequencies seasonally, with potential opportunities for targeted marketing strategies during transitional periods.
+
+        </p>
+        
+    </section>
+
+    <section>
+        <h1>Purchase Frequency Analysis:</h2>
+        <p>
+            Above are two complementary visualizations that explore shopping frequency patterns—how often customers purchase and how patterns vary by groups and seasons. The Sankey diagram plots the relationship between purchase frequency and customer demographics, showing how intervals ranging from weekly to yearly are spread across consumer segments. This serves to underscore that more frequent buyers tend to bunch up in some age or engagement profiles, whereas others like more time between purchases. In addition to this, the seasonal line chart shows how these frequencies change throughout the year. For instance, weekly purchases are most frequent in winter and less so in summer, whereas quarterly purchases reach a high mid-year. Bi-weekly and monthly trends have their own separate seasonal trends as well. Together, these visualizations paint one image of when and by whom shopping is being conducted. By ordering frequencies from shortest to longest and using the same sequential color scheme for both plots, the page tells a more unified story about consumer behavior. These insights can inform targeted marketing, seasonal promotion, and inventory management based on both who shops and when.
+        </p>
+    </section>
+    
   </div>
   
   <footer>
